@@ -21,6 +21,7 @@ CURRENT_PATH := hardware/samsung_slsi/$(TARGET_SOC)/libgatekeeper
 
 LOCAL_MODULE := gatekeeper.$(TARGET_SOC)
 
+LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 
 LOCAL_SRC_FILES := exynos_gatekeeper.cpp \
